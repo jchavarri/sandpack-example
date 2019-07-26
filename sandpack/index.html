@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sandbox - CodeSandbox</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <script
+      src="/static/browserfs2/browserfs.min.js"
+      type="text/javascript"
+    ></script>
+    <script>
+      (window.process = BrowserFS.BFSRequire("process")),
+        (window.Buffer = BrowserFS.BFSRequire("buffer").Buffer);
+    </script>
+  </head>
+  <body>
+    <div id="csb-loading-screen"></div>
+    <script src="/static/js/vendors~sandbox.b1bdf03a.chunk.js"></script>
+    <script src="/static/js/sandbox.cb6f5577.js"></script>
+    <script src="/static/js/sandbox-startup.9122a2ec.js"></script>
+  </body>
+</html>
